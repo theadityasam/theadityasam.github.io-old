@@ -1,16 +1,16 @@
 [
 	{
-		"title": "SQLifting",
-		"slug": "sqlifting",
-		"description": "Exercise smarter with a personalized exercise and workout plan building application",
+		"title": "CPU Simulator",
+		"slug": "cpusim",
+		"description": "A CPU process scheduling simulator created in JavaFX",
 		"tags": [
-			"React",
-			"Express.js",
-			"MySQL",
-			"2021"
+			"Java",
+			"Operating Systems",
+			"OOPS",
+			"CS Fundamentals"
 		],
-		"source": "https://github.com/capriok/SQLifting",
-		"demo": "https://sqlifting.kylecaprio.dev",
-		"thumb": "./images/SQLIFTING-WORKOUT.jpg"
+		"source": "https://github.com/theadityasam/processSimulator",
+		"demo": "https://github.com/theadityasam/processSimulator",
+		"thumb": "./images/PROCESS-SIM1.png"
 	}
 ]

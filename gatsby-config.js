@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Kyle Caprio`,
+    title: `Aditya Samantaray`,
     description: `Software Developer Portfolio`,
-    author: `@KyleCaprio`,
+    author: `@theadityasam`,
   },
   plugins: [
     `gatsby-plugin-typescript`,

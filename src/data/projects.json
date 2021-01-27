@@ -1,7 +1,7 @@
 [
 	{
 		"title": "CPU Simulator",
-		"slug": "cpuSim",
+		"slug": "cpusim",
 		"description": "A CPU process scheduling simulator created in JavaFX",
 		"writing": {
 			"process": "A process scheduling simulator that simulates different scheduling algorithms such as First Come First Serve (FCFS), Round Robin (RR), Shortest Job First (SJF), Shortest Remaining Time First (SRTF), Priority Pre-emptive(PP) and Priority Non Pre-emptive(PNP).",

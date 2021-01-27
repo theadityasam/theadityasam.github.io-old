@@ -19,6 +19,7 @@
     "gatsby-source-filesystem": "^2.7.0",
     "gatsby-transformer-json": "^2.7.0",
     "gatsby-transformer-sharp": "^2.8.0",
+    "gh-pages": "^3.1.0",
     "godspeed": "^2.0.16",
     "include-media": "^1.4.9",
     "lodash": "^4.17.20",
@@ -49,7 +50,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop -o",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",

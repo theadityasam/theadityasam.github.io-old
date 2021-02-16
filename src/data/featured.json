@@ -1,6 +1,19 @@
 [
 	{
-		"title": "CPU Simulator",
+		"title": "SatDash",
+		"slug": "satdash",
+		"description": "Interactive notebooks created with IpyWidgets to visualize Landsat-8 images",
+		"tags": [
+			"Remote Sensing",
+			"Landsat-8",
+			"Google Earth Engine"
+		],
+		"source": "https://github.com/theadityasam/satdash",
+		"demo": "https://satdash.herokuapp.com/",
+		"thumb": "./images/SATDASH2.png"
+	},
+	{
+		"title": "CPUSimulator",
 		"slug": "cpusim",
 		"description": "A CPU process scheduling simulator created in JavaFX",
 		"tags": [

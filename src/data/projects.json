@@ -1,6 +1,44 @@
 [
 	{
-		"title": "CPU Simulator",
+		"title": "SatDash",
+		"slug": "satdash",
+		"description": "Interactive notebooks created with IpyWidgets to visualize Landsat-8 images",
+		"writing": {
+			"process": "Host of interactive notebooks that can be used to conenct with Google Earth Engine and gather timelapses as well as TCC and FCC images to visualize the impacts of climate change.",
+			"processSub": "",
+			"conclusion": [
+				"Developed IPyWidget for LANDSAT 8 visualization",
+				"Gained expertise in using Google Earth Engine",
+				"Improved fundamentals of remote sensing techniques and their usages"
+			]
+		},
+		"stack": [
+			"Python",
+			"IPyWidgets",
+			"Heroku"
+		],
+		"tags": [
+			"Remote Sensing",
+			"Landsat-8",
+			"Google Earth Engine"
+		],
+		"source": "https://github.com/theadityasam/satdash",
+		"demo": "https://satdash.herokuapp.com/",
+		"thumb": "./images/SATDASH3.png",
+		"images": [
+			"./images/SATDASH2.png",
+			"./images/SATDASH4.png",
+			"./images/SATDASH3.png"
+		],
+		"resources": [
+			"https://earthengine.google.com/",
+			"https://www.usgs.gov/core-science-systems/nli/landsat/landsat-8",
+			"https://docs.google.com/presentation/d/1p8o5_qJIJQnMy-z_sgZRag0jQwAWXbzzIWUwcV4trew/edit?usp=sharing",
+			"https://github.com/theadityasam/satdash/blob/master/Project_Report%20(2).pdf"
+		]
+	},
+	{
+		"title": "CPUSimulator",
 		"slug": "cpusim",
 		"description": "A CPU process scheduling simulator created in JavaFX",
 		"writing": {

@@ -31,11 +31,12 @@ const About: React.FC = () => (
           majoring in Computer Engineering. I've been passionate about computer
           systems and programming since my high school days and have been coding
           ever since. I've a knack for learning things fast and have
-          consequently worked hard exploring various fiels such as Data Science,
-          Deep Learning, Fullstack Development as well as Site Reliability. I've
-          demonstrated experience in data analytics, full stack development as
-          well as open source projects. My dream is to build scalable data
-          driven software solutions that can mend the chaos of our world.
+          consequently worked hard exploring various fields such as Data
+          Science, Deep Learning, Fullstack Development as well as Site
+          Reliability. I've demonstrated experience in data analytics, full
+          stack development as well as open source projects. My dream is to
+          build scalable data driven software solutions that can mend the chaos
+          of our world.
         </p>
         <h2>Education</h2>
         <ul>

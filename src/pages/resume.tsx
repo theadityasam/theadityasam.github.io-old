@@ -29,6 +29,7 @@ const Resume: React.FC = () => (
         View Resume
       </button>
     </div> */}
+    <p>{PDF}</p>
     <div style={{ height: "100vh" }}>
       <iframe
         src={PDF}

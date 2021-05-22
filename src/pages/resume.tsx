@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layouts/resume-layout";
 import "../styles/resume.scss";
+require("dotenv").config();
 
 const PDF =
   "https://drive.google.com/file/d/" +
@@ -29,7 +30,7 @@ const Resume: React.FC = () => (
         View Resume
       </button>
     </div> */}
-    <p>{PDF}</p>
+    <p>{process.env.DRIVE_FILE}</p>
     <div style={{ height: "100vh" }}>
       <iframe
         src={PDF}

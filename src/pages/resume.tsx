@@ -2,6 +2,11 @@ import React from "react";
 import Layout from "../components/layouts/resume-layout";
 import "../styles/resume.scss";
 
+const PDF =
+  "https://drive.google.com/file/d/" +
+  process.env.DRIVE_FILE +
+  "/preview?usp=embed_googleplus";
+
 // const PDF = process.env.GATSBY_RESUME;
 // const styles = {
 //   border: 0,
@@ -26,7 +31,7 @@ const Resume: React.FC = () => (
     </div> */}
     <div style={{ height: "100vh" }}>
       <iframe
-        src="https://drive.google.com/file/d/17wLkrnymU_S_o45mrxDHwSTziyKvDnrR/preview?usp=embed_googleplus"
+        src={PDF}
         style={{
           width: "100%",
           height: "100vh",

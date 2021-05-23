@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{hkpG:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),r=a.n(n),l=a("88s8"),c=a("4bYC"),o=a("H8eV");a("sg+I");t.default=function(){return r.a.createElement(l.a,null,r.a.createElement(o.a,{title:"Work"}),r.a.createElement("div",{className:"work-route"},r.a.createElement(c.a,null)))}}}]);
+//# sourceMappingURL=component---src-pages-work-tsx-809b6391d197d1536a2e.js.map

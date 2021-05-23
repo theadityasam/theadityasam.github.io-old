@@ -17,7 +17,9 @@ const IndexPage: React.FC = () => {
       <Introduction />
       <Skills />
       <FeaturedMap />
-      <ProjectsMap />
+      <div className="work-route">
+        <ProjectsMap />
+      </div>
       <Contact />
     </Layout>
   );

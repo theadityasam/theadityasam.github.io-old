@@ -5,7 +5,8 @@ require("dotenv").config();
 
 const PDF =
   "https://drive.google.com/file/d/" +
-  process.env.DRIVE_FILE +
+  // process.env.REACT_APP_FILE +
+  "1kth7e0WQDpruxVz4FI5xKcp6gehQGrwM" +
   "/preview?usp=embed_googleplus";
 
 // const PDF = process.env.GATSBY_RESUME;
@@ -30,7 +31,7 @@ const Resume: React.FC = () => (
         View Resume
       </button>
     </div> */}
-    <p>{process.env.DRIVE_FILE}</p>
+    {/* <p>{process.env.REACT_APP_FILE}</p> */}
     <div style={{ height: "100vh" }}>
       <iframe
         src={PDF}
